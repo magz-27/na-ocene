@@ -1,0 +1,22 @@
+body {
+    background-image: linear-gradient(90deg, violet 10%, indigo 99%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#caly-formularz {
+    align-content:center;
+}
+
+fieldset {
+    width:fit-content;
+    background-image: linear-gradient(180deg, rgb(145, 167, 126) 10%, rgb(201, 212, 145) 99%);
+    border-radius:20px;
+}
+input[type=text], input[type=password]{
+    background-color: rgb(209, 215, 155);
+}
+input[type=submit]{
+    background-color:green;
+}
+input[type=reset]{
+background-color: red;    
+}
